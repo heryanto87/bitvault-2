@@ -3,11 +3,19 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary-purple: #b13bff;
+  --primary-purple-dark: #7c3aed;
+  --dark-grey: #374151;
+  --dark-grey-light: #4b5563;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary-purple);
+  --color-primary-dark: var(--primary-purple-dark);
+  --color-grey: var(--dark-grey);
+  --color-grey-light: var(--dark-grey-light);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
